@@ -1,0 +1,77 @@
+/* Page background */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #edf0fa;
+    font-family: Arial, sans-serif;
+    color: #202747;
+}
+
+/* Counter container */
+.counter-container {
+    width: 360px;
+    max-width: calc(100% - 80px);
+    margin: 100px auto;
+    padding: 35px;
+
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #dce1f2;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(32, 39, 71, 0.12);
+}
+
+/* Heading */
+.counter-container h1 {
+    margin: 0 0 28px;
+    font-size: 27px;
+    color: #202747;
+}
+
+/* Counter value */
+.counter-value {
+    margin: 20px 0 30px;
+    font-size: 64px;
+    font-weight: bold;
+    color: #6558c9;
+}
+
+/* Button section */
+.counter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* All buttons */
+.counter-buttons button {
+    padding: 12px 17px;
+    border: none;
+    border-radius: 9px;
+
+    background: #6558c9;
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background 0.2s, transform 0.2s;
+}
+
+.counter-buttons button:hover {
+    background: #4e42a9;
+    transform: translateY(-2px);
+}
+
+/* Reset button */
+.counter-buttons .reset-btn {
+    background: #e9e7f8;
+    color: #40368e;
+}
+
+.counter-buttons .reset-btn:hover {
+    background: #d9d5f3;
+}
